@@ -63,6 +63,47 @@ Based on observed behavioral differences between casual riders and annual member
 3. Position annual memberships as both a commuter solution and a lifestyle enhancement to reinforce long-term value.
 
 These recommendations are designed to align marketing strategies with actual rider behavior patterns observed in the data.
+## Visual Analysis
+
+### Total Rides by Rider Type
+![Total rides by rider type](visuals/chart_total_rides_by_type.png)
+
+Annual members account for a higher total number of rides compared to casual riders. This indicates that members use the service more frequently and likely rely on it for routine transportation needs.
+
+---
+
+### Average Ride Length by Rider Type
+![Average ride length by rider type](visuals/chart_avg_ride_length_by_type.png)
+
+Casual riders consistently take longer rides on average than annual members. This suggests that casual usage is more leisure-oriented, while member rides are shorter and more purpose-driven.
+
+---
+
+### Rides by Day of Week
+![Rides by day of week](visuals/chart_rides_by_day_of_week.png)
+
+Annual members show relatively stable usage across weekdays, while casual riders demonstrate increased activity on weekends. This highlights a clear difference in usage patterns between commuter and recreational riders.
+
+---
+
+### Rides by Hour of Day
+![Rides by hour](visuals/chart_rides_by_hour.png)
+
+Member rides peak during typical commuting hours, whereas casual rider usage is more evenly distributed throughout the day, with higher activity during midday hours.
+
+---
+
+### Monthly Ride Trends
+![Rides by month](visuals/chart_rides_by_month.png)
+
+Both rider types experience increased usage during warmer months. However, casual rider activity fluctuates more significantly across seasons compared to annual members.
+
+---
+
+### Average Ride Length by Month
+![Average ride length by month](visuals/chart_avg_ride_length_by_month.png)
+
+Across all months, casual riders maintain longer average ride durations, reinforcing the distinction between recreational and routine usage.
 
 ## Tools
 - Python (pandas, data analysis, visualization)
@@ -71,7 +112,8 @@ These recommendations are designed to align marketing strategies with actual rid
 - Kaggle
 
 ## Repository Structure
-- `/data` – Data documentation (raw and processed)
+- `/data` – Raw and processed data documentation
+- `/tables` – Aggregated analysis outputs (CSV)
 - `/notebooks` – Jupyter notebooks for analysis
 - `/sql` – SQL queries/scripts (if applicable)
 - `/visuals` – Exported charts and visual assets
