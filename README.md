@@ -54,6 +54,15 @@ The following insights are based on exploratory analysis of Cyclistic bike-share
 Behavioral differences between casual riders and annual members suggest distinct usage motivations. Annual members primarily use Cyclistic bikes for routine, time-bound transportation such as commuting. Casual riders demonstrate longer, less frequent rides that align with leisure, tourism, or recreational use.
 
 These differences indicate that casual riders already derive significant value from the service but have not yet transitioned into habitual usage patterns. This presents an opportunity to convert high-engagement casual riders into members through targeted incentives and messaging.
+## Recommendations
+
+Based on observed behavioral differences between casual riders and annual members, the following recommendations are proposed to support membership growth:
+
+1. Target high-engagement casual riders with messaging that highlights the transition from leisure riding to routine use.
+2. Introduce seasonal membership incentives during peak riding months to capture casual riders when engagement is highest.
+3. Position annual memberships as both a commuter solution and a lifestyle enhancement to reinforce long-term value.
+
+These recommendations are designed to align marketing strategies with actual rider behavior patterns observed in the data.
 
 ## Tools
 - Python (pandas, data analysis, visualization)
