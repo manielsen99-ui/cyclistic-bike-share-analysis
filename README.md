@@ -27,6 +27,27 @@ The analysis follows the six phases of the data analysis process:
 4. **Analyze** – Explored usage patterns and behavioral differences  
 5. **Share** – Created visualizations and summarized key findings  
 6. **Act** – Developed actionable marketing recommendations  
+## Key Findings (Preliminary)
+
+The following insights are based on exploratory analysis of Cyclistic bike-share trip data from June 2022 through May 2023. These findings describe observed behavioral patterns and will be used to inform business recommendations.
+
+### Rider Type Usage
+- Annual members account for a higher overall number of rides compared to casual riders.
+- Casual riders, while fewer in total trips, tend to take longer rides on average.
+
+### Ride Duration
+- Casual riders consistently exhibit longer average ride lengths than annual members.
+- This pattern suggests different usage motivations between rider types, such as leisure versus routine transportation.
+
+### Time-Based Patterns
+- Annual members show higher ride frequency during weekday commute hours.
+- Casual riders demonstrate increased usage during weekends and midday hours.
+
+### Seasonal Trends
+- Both rider types experience higher usage during warmer months.
+- Casual rider activity shows greater seasonal fluctuation compared to annual members.
+
+> These findings highlight meaningful behavioral differences that can inform targeted marketing strategies aimed at increasing annual memberships.
 
 ## Tools
 - Python (pandas, data analysis, visualization)
@@ -49,7 +70,8 @@ The analysis follows the six phases of the data analysis process:
 - Business-focused recommendations for membership growth
 
 ## Status
-🚧 In progress — analysis and documentation underway
+🚧 Analysis complete; insights and recommendations in progress
+
 
 ## Author
 Michael Nielsen
